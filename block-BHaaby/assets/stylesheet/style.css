@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* Custom Style */
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+ body{
+     line-height: 1.5;
+     background-color: rgb(212,206,167);
+    font-family: 'Roboto', sans-serif;
+     
+} 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header */
+header{
+    padding: 25px;
+    background-color:rgb(249,97,21) ;
+}
+nav a{
+    font-family:'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+/* main */
+/* section1 */
+.section1{
+    margin-top: 40px;
+}
+.box{
+    color: rgb(209,203,165);
+    width: 300px;
+    height: 500px;
+    background-color: rgb(0,89,121);
+    box-shadow:  3px  6px 20px black;
+}
+ .order-list{
+    list-style-type:decimal;
+     margin-top: 30px;
+}
+li{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.sub-menu{
+    list-style-type: square;
+}
+.unordered-list{
+    margin-top: 30px;
+    list-style-type: initial;
+}
+.unordered-list1{
+    margin-top: 30px;
+}
+.unordered-list1 li{
+    display: flex;
+    margin-top: 25px;
+}
+/* section 2 */
+.section2{
+    margin-top: 60px;
+}
+.heading{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+p{
+    margin-left: 40px;
+    color: rgb(103,100,79);
+    line-height: 1.7;
+}
+img{
+    margin-right: 5px;
+     width: 25px;
+}
+/* footer */
+footer{
+    margin-top: 60px;
+    padding: 40px;
+    background-color: rgb(36,44,34);
+}
+.link{
+    display: flex;
+    /* margin-left: 15px; */
+}
+.link li{
+    color: rgb(233,244,248);
+    margin-left: 40px;
+}
